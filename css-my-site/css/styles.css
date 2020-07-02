@@ -5,12 +5,14 @@ body {
 }
 
 h1 {
-  margin: 0;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
   font-family: "Sacramento", cursive;
 }
 
 h2 {
   font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
 }
 
 h3 {
@@ -24,15 +26,9 @@ h3 {
 }
 
 .middle-container {
-  height: 200px;
-  width: 200px;
-  background-color: #a6dcef;
 }
 
 .bottom-container {
-  height: 200px;
-  width: 200px;
-  background-color: #f2aaaa;
 }
 
 .emphasis {
@@ -49,4 +45,10 @@ h3 {
   position: absolute;
   bottom: 300px;
   left: 300px;
+}
+
+.small-round-picture {
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
 }
