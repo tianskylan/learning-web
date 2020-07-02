@@ -8,15 +8,23 @@ h1 {
   font-size: 5.625rem;
   margin: 50px auto 0 auto;
   font-family: "Sacramento", cursive;
+  color:#66BFBF;
 }
 
 h2 {
   font-family: "Montserrat", sans-serif;
   font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
 }
 
 h3 {
   font-family: "Montserrat", sans-serif;
+  color: #11999E;
+}
+
+a {
+  color: #11999E;
 }
 
 .top-container {
@@ -47,8 +55,29 @@ h3 {
   left: 300px;
 }
 
-.small-round-picture {
-  width: 150px;
-  height: 150px;
-  border-radius: 75px;
+.profile-picture {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+
+.heart-picture {
+  width: 25%;
+  border-radius: 50%;
+  float: left;
+  margin-right: 30px;
+}
+
+.chilli-picture {
+  width: 25%;
+  border-radius: 50%;
+  float: right;
+  margin-left: 30px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
 }
